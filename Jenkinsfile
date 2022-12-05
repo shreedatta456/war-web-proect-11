@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh "mvn clean test install"
+                sh "mvn clean tes install"
             }
         }
         stage('upload artifact to nexus') {
